@@ -1,9 +1,12 @@
 # Gradle files
 .gradle/
 build/
+**/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
+_bmad/config.user.toml
+_bmad-output/
 
 # Log/OS Files
 *.log
