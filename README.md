@@ -41,7 +41,7 @@ BMAD also provides skills for epics, sprint planning, QA test generation, and re
 1. Read the short [product brief](docs/product-brief.md) for the audience, problem, and acceptance criteria.
 2. Read [project context](docs/project-context.md) for the Android conventions an agent should preserve.
 3. Inspect [BMAD configuration](_bmad/config.toml) and the generated skills in [`.agents/skills`](.agents/skills). BMAD Method 6.12.0 installed the Core and Method modules for Codex here.
-4. Inspect the original [`android-bmad-development` skill](.agents/skills/android-bmad-development/SKILL.md). It adds Android-specific implementation and verification guidance without changing BMAD's generated skills.
+4. Inspect the original [`android-bmad-development` skill](.agents/skills/android-bmad-development/SKILL.md). It adds Android-specific implementation and verification guidance, with references for MVVM, Hilt, and feature api/impl modules, without changing BMAD's generated skills.
 5. Inspect the [Compose screen](app/src/main/java/com/maxlord/bmadandroiddemo/MainActivity.kt), [interaction test](app/src/androidTest/java/com/maxlord/bmadandroiddemo/HelloWorldScreenTest.kt), and [CI workflow](.github/workflows/android.yml).
 
 A practical agent conversation could be:
